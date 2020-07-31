@@ -13,9 +13,6 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
-rm -rf /package/lean/UnblockNeteaseMusicGo
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/UnblockNeteaseMusicGo package/lean/UnblockNeteaseMusicGo
-
 git clone https://github.com/fw876/helloworld.git package/helloworld
 git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/koolproxyR
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
