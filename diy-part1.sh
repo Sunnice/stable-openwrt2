@@ -20,3 +20,6 @@ sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.co
 ./scripts/feeds clean
 ./scripts/feeds update -a
 ./scripts/feeds install -a
+
+svn co https://github.com/Lienol/openwrt-packages/trunk/net/smartdns ./feeds/packages/net/smartdns
+./scripts/feeds search -r packages smartdns && ./scripts/feeds install smartdns
