@@ -14,7 +14,6 @@
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/smartdns ./feeds/packages/net/smartdns
 make ./feeds/packages/net/smartdns/install
-./scripts/feeds install -a
 
 rm -rf /package/lean/UnblockNeteaseMusicGo
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/UnblockNeteaseMusicGo package/lean/UnblockNeteaseMusicGo
