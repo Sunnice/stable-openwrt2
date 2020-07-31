@@ -22,3 +22,6 @@ sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.co
 ./scripts/feeds install -a
 
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/smartdns package/net/smartdns
+
+rm -rf /package/lean/UnblockNeteaseMusicGo
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/UnblockNeteaseMusicGo package/lean/UnblockNeteaseMusicGo
