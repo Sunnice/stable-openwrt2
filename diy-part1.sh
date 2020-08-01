@@ -23,7 +23,7 @@ sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.co
 
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/smartdns package/net/smartdns
 
-svn co https://github.com/tano-systems/luci-theme-tano/trunk/luci-theme-tano .feeds/luci/themes/luci-theme-tano
+svn co https://github.com/tano-systems/luci-theme-tano/trunk/src/luci-theme-tano feeds/luci/themes/luci-theme-tano
 
 rm -rf package/lean/UnblockNeteaseMusicGo
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/UnblockNeteaseMusicGo package/lean/UnblockNeteaseMusicGo
