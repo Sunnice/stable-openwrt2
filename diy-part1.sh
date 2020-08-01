@@ -25,3 +25,6 @@ svn co https://github.com/Lienol/openwrt-packages/trunk/net/smartdns packages/ne
 
 rm -rf package/lean/UnblockNeteaseMusicGo
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/UnblockNeteaseMusicGo package/lean/UnblockNeteaseMusicGo
+
+rm -rf package/network/services/wireguard
+svn co https://github.com/coolsnowwolf/lede/trunk/package/network/services/wireguard package/network/services/wireguard
